@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #1e1e2f;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffc8;
+}
+
+h1 {
+    text-align: center;
+    color: #00ffc8;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+    font-size: 16px;
+    background: #262626;
+    color: #fff;
+    border: 1px solid #00ffc8;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #00ffc8;
+    color: #121212;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #00c3a0;
+}
+
+.resultado-container {
+    margin-top: 30px;
+}
+
+h2 {
+    color: #ff00ff;
+    border-bottom: 1px solid #ff00ff;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+#mais-frequentes, #menos-frequentes {
+    margin-top: 10px;
+    background: #2a2a3d;
+    padding: 15px;
+    border-radius: 8px;
+    min-height: 60px;
+}
+
+.palavra-item {
+    padding: 4px 0;
+    border-bottom: 1px dotted #444;
+}
+
+
